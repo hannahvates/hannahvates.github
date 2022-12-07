@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="responsiveStyle.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+    <div class="headerContainer">
+        <div class = "headerStructure">
+            <div class="navigationBar">
+                <ul>
+                    <li><a class = "active" href="#home">Home</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="landingPage" id="home">
+    <div class="sectionContainer">
+        <div class="sectionStructureBox fill">
+            <div class="homePage">
+                <div class="homeInfoContainer">
+                    <h2>Hello,</h2>
+                    <h1>My name is Hannah Vates</h1>
+                    <h3>Welcome to my page</h3>
+                    <div class= "resume">
+                        <a href="assets/Hannah%20Vates%20Resume.docx.pdf" download="HannahVatesResume">Donwload Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio" id = "portfolio">
+    <div class="sectionContainer">
+        <div class="sectionStructureBox" id="portfolioWorks">
+            <div class="sectionHeader">
+                <h1>My Work:</h1>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column" id="left">
+                <div class = workHeader>
+                    <h1>Ipod Music Player</h1>
+                </div>
+                <div class = "projectImage">
+                    <p> <img src="images/ipod_proj.png"></p>
+                </div>
+                <button type="submit" name="button" class = "learnMore" id="leftDisplay">
+                    <h2>Learn More
+                    </h2>
+                </button>
+                <div id = "leftDescription">
+                    <h2>The goal of this project was to build a a mobile
+                        music player application using HTML, CSS and JavaScript
+                        There is a two screen music player
+                        interface showing an album and song select screen using HTML and CSS.
+                        The alnum screen is the current screen shown.
+                    </h2>
+                </div>
+        </div>
+        <div class="column" id ="right">
+                <div class = workHeader>
+                    <h1>Flex Box Proj</h1>
+                </div>
+                <div class = "projectImage">
+                    <img src="images/proj2.png" alt="project_1">
+                </div>
+                <button type="submit" name="button" id="rightDisplay">
+                    <h2>Learn More
+                    </h2>
+                </button>
+                <div id = "rightDescription">
+                    <h2>The goal of this project was to build a responsive flex box that
+                        would display a specific layout if the page was shrunk
+                    </h2>
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="about" id = "about" >
+    <div class="sectionContainer" >
+        <div class="sectionStructureBox" id="aboutHeader">
+            <div class = "sectionHeader">
+                <h1>About Me</h1>
+            </div>
+        </div>
+        <div class="sectionStructureBox">
+            <div class="aboutInfoContainer">
+                <h2>To learn more about:</h2>
+            </div>
+        </div>
+        <div class="sectionStructureBox">
+            <div class="aboutInfoContainer" id="bioTopics">
+                <ul>
+                    <li><a href="biographyPage.html">Where I'm From</a></li>
+                    <li><a href="biographyPage.html">My Interests</a></li>
+                    <li><a href="biographyPage.html">My Family</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sectionStructureBox">
+            <div class="aboutInfoContainer" id="biographyLink">
+                <h1><a href="biographyPage.html">Go to my biography page</a></h1>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="contactInfo" id="contact">
+    <div class="sectionContainer">
+        <div class="sectionStructureBox" id ="contactHeader">
+            <div class = "sectionHeader">
+                <h1>Contact Info</h1>
+            </div>
+        </div>
+        <div class="sectionStructureBox">
+            <div class="personalContact">
+                <h2 class = "contactType">Email:</h2><h2 class = "personalInfo">hannah.vates@richmond.edu</h2>
+            </div>
+        </div>
+        <div class="sectionStructureBox">
+            <div class="personalContact">
+                <h2 class = "contactType">Phone:</h2><h2 class = "personalInfo">732-991-2066</h2>
+            </div>
+        </div>
+        <div class="sectionStructureBox">
+            <div class="personalContact">
+                <h2 class= "contactType">Address:</h2> <h2 class = "personalInfo">3 Colts Drive</h2>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

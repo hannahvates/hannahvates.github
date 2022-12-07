@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1400px) {
+    div.homePage{
+        background-image:none;
+    }
+    div.projectImage{
+        display: none;
+    }
+    div#about{
+        background-image:none;
+
+    }
+}
+@media only screen and (max-height: 600px) {
+    div.homePage{
+        background-image:none;
+    }
+    div.projectImage{
+        display: none;
+    }
+}
+
+
+

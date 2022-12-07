@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "OPTIHowland";
+    src: url('fonts/OPTIHowland.otf');
+}
+
+@font-face {
+    font-family: "CaslonGraphique";
+    src: url('fonts/CaslonGraphique-Opti.otf');
+}
+
+@font-face {
+    font-family: "OPTICenturySchoolbookBold";
+    src: url('fonts/OPTICenturySchoolbookBold.otf');
+}
+@font-face {
+    font-family: "OPTIValleyForge-Compressed";
+    src: url('fonts/OPTIValleyForge-Compressed.otf');
+}
+@font-face {
+    font-family: "OPTICharterOak";
+    src: url('fonts/OPTICharterOak.otf');
+}
+@font-face {
+    font-family: "OPTIChelsea";
+    src: url('fonts/OPTIChelsea.otf');
+}
+@font-face {
+    font-family: "OPTICenturyNova";
+    src: url('fonts/OPTICenturyNova.otf');
+}
+
+@font-face {
+    font-family: "OPTIChampionBold";
+    src: url('fonts/OPTIChampionBold.otf');
+}
+
+
+header {
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    min-width: 100vw;
+    border: #001524;
+    background-color: #D7CEB2;
+    padding: 1.5rem;
+}
+.fixed {
+    position: fixed;
+    z-index: 11;
+    border-color:#001524;
+}
+header .headerContainer {
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+header .navigationBar {
+    justify-content: center;
+    background-color: #D7CEB2;
+}
+
+/*TO GET STICKY NAVBAR I LOOKED HOW TO DO IT
+    GEEKSFORGEEKS HAD A GOOD TUTORIAL I REFERENCED WHEN MAKING MINE*/
+
+.navigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigationBar li {
+    display: inline-block;
+}
+
+.navigationBar ul li a{
+    font-size: 3rem;
+    line-height: 3rem;
+    color:#39393A;
+}
+
+.navigationBar a{
+    padding-left: 2rem;
+    text-decoration: none;
+    font-family: CaslonGraphique;
+}
+
+.sectionContainer {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.sectionStructureBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+
+.about{
+    min-height: 100vh;
+    /*background-color: #E6EBE0;*/
+    background: #001524 url("images/han_sports_made_me.jpg");
+
+}
+
+
+#about{
+    background-color: #E6EBE0;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position:70% 40%;
+}
+#aboutHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutInfoContainer h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: OPTICaslon,serif;
+}
+
+.aboutInfoContainer h1{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: OPTICaslon,serif;
+}
+
+
+#bioTopics ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #505168;
+
+}
+#bioTopics li {
+    padding: .5rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+
+}
+#description{
+    font-weight: 550;
+    font-size: 1.5rem;
+    color:
+            #505168;
+
+}
+
+#biographyLink{
+    color: #001524;
+}
+
+.sectionHeader h1{
+    font-size: 4rem;
+    padding-top: 4rem;
+    color: #001524;
+    font-family: CaslonGraphique,serif;
+
+}
+
